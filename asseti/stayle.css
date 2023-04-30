@@ -186,13 +186,13 @@ a {
 .box__img {
   margin: 0 auto;
   padding: 0;
-  margin-top: 100px;
+  margin-top: 45px;
 }
 
 .box__img1 {
   margin: 0 auto;
   padding: 0;
-  margin-top: 100px;
+  margin-top: 85px;
 }
 
 .box1 {
@@ -204,7 +204,7 @@ a {
   background-color: #f3f1fa;
   padding: 0 50px;
   margin-left: 10px;
-  height: 758px;
+  height: 720px;
 }
 /* <!-- End Fashion Section --> */
 
@@ -274,7 +274,7 @@ section {
   position: relative;
   background-position: center;
   background-size: contain;
-  top: 60px;
+  top: 40px;
   left: -45px;
 }
 
@@ -287,7 +287,7 @@ section {
   position: relative;
   background-position: center;
   background-size: contain;
-  top: 60px;
+  top: 40px;
   left: -45px;
 }
 .clients__subtitle__2 {

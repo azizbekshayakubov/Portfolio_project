@@ -1,0 +1,149 @@
+body {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+// FREELANCE__WORK 0PENED
+.container2{
+    width: 100%;
+    max-width: 970px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+.freelance__work {
+    position:relative;
+    margin-bottom: 100px;
+}
+
+.frelance__workbox {
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 801px;
+    height: 427px;
+    text-align: center;
+    margin-top:200px;
+}
+    
+    h1 {
+    font-family: 'THICCCBOI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #1B1C23;
+    margin: 0;
+    padding-top: 150px;
+    }
+h2{
+        font-family: 'THICCCBOI';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 60px;
+        text-align: center;
+        color: #1B1C23;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    
+.website {
+      font-family: 'THICCCBOI';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 64px;
+      text-align: center;
+            color: #FF694B;
+    }
+   
+
+.website::after{
+    content: " ";
+    background-image: url(./images/Arrow.svg);
+    background-size: cover;
+    display: block;
+    height: 22px;
+    width: 22px;
+    position: relative;
+    left: 610px;
+    top: -40px;
+}
+// FREELANCE__WORK CLOOSED
+
+// FOOTER OPENED
+.footer__box {
+    width: 100%;
+    height: 681px;
+    background: #F8F8F8;
+    
+  } 
+
+   .footer__text{
+    text-align: center;
+    width: 491px;
+    padding-top: 100px;
+    height: 380px;
+    padding-left: 244px;
+   }
+   .footer__h1{
+    font-family: 'THICCCBOI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    color: #1B1C23;
+    padding: 20px;
+   }
+   p{
+    font-family: 'THICCCBOI';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+color: #757683;
+   }
+
+   .footer__context{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    margin-top: 80px;
+   }
+   .footer__email{
+    width: 237px;
+    height: 21px;
+     font-family: 'THICCCBOI';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #757683;
+   }
+   #footer__ul {
+    display: flex;
+  align-items: end;
+  justify-content: space-between;
+  column-gap: 23px;
+  font-family: 'THICCCBOI';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #757683;
+   }
+   .footer__img{
+    padding-left: 250px;
+   }
+
+   
+//  FOOTER CLOOSED

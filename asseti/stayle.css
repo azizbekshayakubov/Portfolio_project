@@ -6,6 +6,7 @@
   align-items: center;
   margin-top: 35px;
   margin-bottom: 40px;
+  
 }
 
 
@@ -25,9 +26,9 @@
   margin: 0 25px;
 }
 .list__link {
-  font-family: "THICCCBOI";
+  font-family: sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 22px;
   line-height: 21px;
   text-align: center;
@@ -36,12 +37,14 @@
 
 .list__link:hover {
   color: #ff694b;
+
+  
 }
 
 button {
   background: #ff694b;
   box-shadow: 0px 12px 30px rgba(255, 105, 75, 0.35);
-  font-family: "THICCCBOI";
+  font-family: sans-serif;;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -50,6 +53,10 @@ button {
   color: #ffffff;
   border: none;
   padding: 19px 35px;
+}
+button:hover{
+  background: #f54e2d;
+  box-shadow: 0px 12px 30px rgba(36, 19, 16, 0.35);
 }
 
 a {
@@ -73,10 +80,10 @@ a {
   border-bottom: 1px solid #c8c8c8;
 }
 .hero__left h2 {
-  font-family: "THICCCBOI";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 15px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -84,7 +91,7 @@ a {
 }
 
 .hero__left h1 {
-  font-family: "THICCCBOI";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -94,14 +101,14 @@ a {
 
 .hero__left p {
   width: 100%;
-  font-family: "THICCCBOI";
-  font-style: normal;
+  font-family: sans-serif;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 38px;
   color: #757683;
   border-left: solid #c8c8c8;
-  padding-left: 5px;
+  padding-left: 15px;
+  margin-top: 25px;
 }
 
 .hero__right {
@@ -109,7 +116,7 @@ a {
 }
 
 .hero__right .our {
-  font-family: "THICCCBOI";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -119,7 +126,7 @@ a {
 }
 
 .hero__right .portfolio {
-  font-family: "THICCCBOI";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 19px;
@@ -128,16 +135,17 @@ a {
 }
 
 .hero__right .micro {
-  font-family: "THICCCBOI";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 19px;
   line-height: 19px;
   color: #1b1c23;
+  
 }
 
 .hero__right p {
-  font-family: "THICCCBOI";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -146,6 +154,7 @@ a {
 }
 .button__img {
   padding-bottom: 20px;
+  margin-top: 25px;
 }
 
 .bg-image {
@@ -163,7 +172,7 @@ a {
 }
 
 .box__title {
-  font-family: "THICCCBOI";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -173,12 +182,12 @@ a {
 }
 
 .box__subtitle {
-  width: 50%;
-  font-family: "THICCCBOI";
+  width: 200px;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 28px;
-  line-height: 40px;
+  font-size: 21px;
+  line-height: 30px;
   color: #1b1c23;
   margin-bottom: 50px;
 }
@@ -186,25 +195,28 @@ a {
 .box__img {
   margin: 0 auto;
   padding: 0;
-  margin-top: 45px;
+  margin-top: -17px;
+  width: 481px;
 }
 
 .box__img1 {
   margin: 0 auto;
   padding: 0;
-  margin-top: 85px;
+  margin-top: -17px;
+  width: 481px;
 }
 
 .box1 {
   padding: 0 50px;
   background-color: #fdf5ef;
+  height: 584px;
 }
 
 .box2 {
   background-color: #f3f1fa;
   padding: 0 50px;
   margin-left: 10px;
-  height: 720px;
+  height: 584px;
 }
 /* <!-- End Fashion Section --> */
 
@@ -235,7 +247,7 @@ section {
   margin-left: 10px;
 }
 .clients__title {
-  font-family: "THICCCBOI";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 42px;
@@ -248,7 +260,7 @@ section {
 }
 
 .clients__subtitle h3 {
-  font-family: "THICCCBOI";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -257,7 +269,7 @@ section {
 }
 
 .clients__subtitle p {
-  font-family: "THICCCBOI";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -295,7 +307,7 @@ section {
 }
 
 .clients__subtitle__2 h3 {
-  font-family: "THICCCBOI";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -304,7 +316,7 @@ section {
 }
 
 .clients__subtitle__2 p {
-  font-family: "THICCCBOI";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -325,7 +337,7 @@ section {
 
 
 .number p {
-  font-family: "THICCCBOI";
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;

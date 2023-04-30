@@ -1,0 +1,337 @@
+/* Start Header section */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+
+
+
+.header__centr ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__centr ul li {
+  margin-bottom: 18px;
+  border-bottom: 2px solid transparent;
+}
+
+.header__centr .list__item {
+  margin: 0 25px;
+}
+.list__link {
+  font-family: "THICCCBOI";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 21px;
+  text-align: center;
+  color: #1b1c23;
+}
+
+.list__link:hover {
+  color: #ff694b;
+}
+
+button {
+  background: #ff694b;
+  box-shadow: 0px 12px 30px rgba(255, 105, 75, 0.35);
+  font-family: "THICCCBOI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  padding: 19px 35px;
+}
+
+a {
+  color: #ffffff;
+}
+
+/* End Header section */
+
+/* Start Hero section */
+
+.hero {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.hero__left {
+  width: 47%;
+  border-bottom: 1px solid #c8c8c8;
+}
+.hero__left h2 {
+  font-family: "THICCCBOI";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ff694b;
+}
+
+.hero__left h1 {
+  font-family: "THICCCBOI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 72px;
+  color: #1b1c23;
+}
+
+.hero__left p {
+  width: 100%;
+  font-family: "THICCCBOI";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  color: #757683;
+  border-left: solid #c8c8c8;
+  padding-left: 5px;
+}
+
+.hero__right {
+  margin-top: 195px;
+}
+
+.hero__right .our {
+  font-family: "THICCCBOI";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #757683;
+}
+
+.hero__right .portfolio {
+  font-family: "THICCCBOI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 25px;
+  color: #1b1c23;
+}
+
+.hero__right .micro {
+  font-family: "THICCCBOI";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 19px;
+  color: #1b1c23;
+}
+
+.hero__right p {
+  font-family: "THICCCBOI";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ff694b;
+}
+.button__img {
+  padding-bottom: 20px;
+}
+
+.bg-image {
+  padding-left: 20px;
+}
+/* End Hero section */
+
+/* <!-- Star Fashion Section --> */
+.boxs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.box__title {
+  font-family: "THICCCBOI";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #757683;
+  margin-top: 40px;
+}
+
+.box__subtitle {
+  width: 50%;
+  font-family: "THICCCBOI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 40px;
+  color: #1b1c23;
+  margin-bottom: 50px;
+}
+
+.box__img {
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 100px;
+}
+
+.box__img1 {
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 100px;
+}
+
+.box1 {
+  padding: 0 50px;
+  background-color: #fdf5ef;
+}
+
+.box2 {
+  background-color: #f3f1fa;
+  padding: 0 50px;
+  margin-left: 10px;
+  height: 758px;
+}
+/* <!-- End Fashion Section --> */
+
+/* <!-- Start Clients Section --> */
+section {
+  margin-top: 100px;
+}
+
+.clients {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.clients__right {
+  width: 50%;
+}
+
+.from {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.clients__subtitle {
+  margin-left: 10px;
+}
+.clients__title {
+  font-family: "THICCCBOI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 62px;
+  color: #1b1c23;
+}
+
+.clients__subtitle {
+  margin-left: 45px;
+}
+
+.clients__subtitle h3 {
+  font-family: "THICCCBOI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1b1c23;
+}
+
+.clients__subtitle p {
+  font-family: "THICCCBOI";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #757683;
+}
+
+.clients__subtitle::before {
+  content: "";
+  background-image: url(./Images/Icons/No_1.svg);
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  background-position: center;
+  background-size: contain;
+  top: 60px;
+  left: -45px;
+}
+
+.clients__subtitle__2::before {
+  content: "";
+  background-image: url(./Images/Icons/No_2.svg);
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  background-position: center;
+  background-size: contain;
+  top: 60px;
+  left: -45px;
+}
+.clients__subtitle__2 {
+  margin-left: 45px;
+}
+
+.clients__subtitle__2 h3 {
+  font-family: "THICCCBOI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1b1c23;
+}
+
+.clients__subtitle__2 p {
+  font-family: "THICCCBOI";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #757683;
+}
+
+.clients__numbers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.number {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.number p {
+  font-family: "THICCCBOI";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #757683;
+  margin-left: 10px;
+}
+
+/* <!-- End Clients Section --> */
